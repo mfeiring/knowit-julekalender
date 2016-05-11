@@ -26,7 +26,7 @@ int countValidIDs() {
     string line;
     int count = 0;
     regex regObj("^[a-z]{0,3}[0-9]{2,8}[A-Z]{3,}");
-    ifstream file("IDstrings.txt");
+    ifstream file("ID_strings.txt");
     while (file >> line) {
         if (regex_search(line, regObj)) 
             count++;
