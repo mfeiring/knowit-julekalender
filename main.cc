@@ -6,6 +6,7 @@
 #include "countBases.h" //Assignment 4
 #include "numberOfAnagrams.h" //Assignment 5
 #include "balancedParentheses.h" //Assignment 6
+#include "primeFactorSum.h" //Assignment 7
 
 using namespace std;
 
@@ -16,6 +17,7 @@ int main() {
     cout << countBases() << endl;
     cout << numberOfAnagrams() << endl;
     cout << balancedParentheses(13) << endl;
+    cout << primeFactorSum() << endl;
 }
 
 
