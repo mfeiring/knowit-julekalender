@@ -14,7 +14,7 @@ using namespace std;
 int numberOfAnagrams() {
     string line;
     vector<string> words;
-    fstream file("Anagram_list.txt");
+    fstream file("resources/Anagram_list.txt");
     while (file >> line) {
         sort(line.begin(), line.end());
         words.push_back(line);

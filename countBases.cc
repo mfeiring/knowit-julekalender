@@ -48,7 +48,7 @@ Eksempel: A20, C2, G90, T22*/
 using namespace std;
 
 string countBases() {
-    ifstream file("DNA_sequence.txt");
+    ifstream file("resources/DNA_sequence.txt");
     string line;
     int numA = 0, numC = 0, numG = 0, numT = 0;
 

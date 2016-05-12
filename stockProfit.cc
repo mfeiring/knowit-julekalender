@@ -15,7 +15,7 @@ using namespace std;
 
 double maxProfit() {
     double value;
-    ifstream file("Stock_prices.txt");
+    ifstream file("resources/Stock_prices.txt");
     vector<double> list;
     while (file >> value) {
         list.push_back(value);
