@@ -7,6 +7,7 @@
 #include "numberOfAnagrams.h" //Assignment 5
 #include "balancedParentheses.h" //Assignment 6
 #include "primeFactorSum.h" //Assignment 7
+#include "mirpNumbers.h" //Assignment 8
 
 using namespace std;
 
@@ -18,6 +19,7 @@ int main() {
     cout << numberOfAnagrams() << endl;
     cout << balancedParentheses(13) << endl;
     cout << primeFactorSum() << endl;
+    cout << mirpNumbers() << endl;
 }
 
 
