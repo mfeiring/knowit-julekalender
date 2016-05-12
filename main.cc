@@ -5,6 +5,7 @@
 #include "progDaysOnFriday.h" //Assignment 3
 #include "countBases.h" //Assignment 4
 #include "numberOfAnagrams.h" //Assignment 5
+#include "balancedParentheses.h" //Assignment 6
 
 using namespace std;
 
@@ -14,6 +15,7 @@ int main() {
     cout << progDaysOnFriday() << endl;
     cout << countBases() << endl;
     cout << numberOfAnagrams() << endl;
+    cout << balancedParentheses(13) << endl;
 }
 
 
