@@ -8,6 +8,7 @@
 #include "balancedParentheses.h" //Assignment 6
 #include "primeFactorSum.h" //Assignment 7
 #include "mirpNumbers.h" //Assignment 8
+#include "columnNoToLetters.h" //Assignment 9
 
 using namespace std;
 
@@ -20,6 +21,7 @@ int main() {
     cout << balancedParentheses(13) << endl;
     cout << primeFactorSum() << endl;
     cout << mirpNumbers() << endl;
+    cout << columnNoToLetters(142453146368) << endl;
 }
 
 

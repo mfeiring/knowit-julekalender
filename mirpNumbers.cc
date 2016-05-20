@@ -32,7 +32,7 @@ bool isPalindrome(int num) {
 }
 
 int mirpNumbers() {
-    int count = 0, num, reverse;
+    int reverse, num, count = 0;
     //Single digit numbers are per definition NOT mirp numbers, start iteration from 10.
     for (int i = 10; i <= 1000; i++) {
         num = i, reverse = 0;

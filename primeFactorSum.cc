@@ -8,7 +8,7 @@ og begge disse tallene har 7 som en primtallsfaktor.*/
 #include "primeFactorSum.h"
 
 int primeFactorSum() {
-    int count = 0, reverse, num;
+    int reverse, num, count = 0;
     for (int i = 7; i <= 1000; i += 7) {
         num = i, reverse = 0;
         while(num != 0) {
